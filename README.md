@@ -8,10 +8,6 @@ You can set the Swagger URL at runtime by setting the URL environment variable.
 
 ## Example
 
-`docker run -it --rm -p 3000:80 --name test -e "URL=http://petstore.swagger.io/v2/swagger.json" ianneub/swagger-ui`
-
-## Try it out on Tutum
-
-[![Deploy to Tutum](https://s.tutum.co/deploy-to-tutum.svg)](https://dashboard.tutum.co/stack/deploy/)
+`docker run -it --rm -p 3000:80 --name test -e "URL=http://petstore.swagger.io/v2/swagger.json" lbeder/swagger-ui`
 
 Check your stack after deploying to get your URL to test with.
