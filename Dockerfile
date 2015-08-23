@@ -1,6 +1,6 @@
 FROM nginx:1.9
 
-ENV SWAGGER_UI_VERSION 2.1.2-M2
+ENV SWAGGER_UI_VERSION 2.1.2
 ENV URL **None**
 
 RUN apt-get update \
